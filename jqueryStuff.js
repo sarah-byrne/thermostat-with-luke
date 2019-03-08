@@ -29,9 +29,6 @@ function displayTemp() {
   $( "#temperature" ).attr('class', thermo.usage())
 }
 
-$.get("http://api.openweathermap.org/data/2.5/weather?id=2172797&appid=a3d9eb01d4de82b9b8d0849ef604dbed", function(weatherResponse) {
-$("#weather").html(weatherResponse.weather[0].main);
-});
 
 $('#weatherSelect').change(function(){
   weatherQuery = "http://api.openweathermap.org/data/2.5/weather?id=" + document.getElementById('weatherSelect').value + "&appid=a3d9eb01d4de82b9b8d0849ef604dbed"
