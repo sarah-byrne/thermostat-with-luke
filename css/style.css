@@ -1,0 +1,63 @@
+/*style.css*/
+
+  body {
+    background-color: #B59DA4
+  }
+
+  .button {
+    background-color: #A1C6EA;
+    border: none;
+    color: white;
+    padding: 64px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 64px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .button1 {width: 175px;}
+
+  .button1 {border-radius: 8px;}
+
+  .button1 {
+    color: #495867;
+    border: 2px solid #495867;
+  }
+
+  .button1:hover {
+    color: #BBD1EA;
+  }
+
+  .lowusage {
+    color: green;
+  }
+
+  .mediumusage {
+    color: black;
+  }
+
+  .highusage {
+    color: red;
+  }
+
+  h1 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #ffffff;
+    font-size: 64px;
+  }
+
+  h2 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #ffffff;
+    font-size: 64px;
+  }
+
+  h3 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #ffffff;
+    font-style: oblique;
+    font-size: 64px;
+  }

@@ -90,7 +90,7 @@ describe('Thermostat', function() {
 
   describe('Thermostat', function(){
     it('can tell medium usage', function(){
-      thermo.increase(5);
+      thermo.increase(4);
       expect(thermo.usage()).toEqual('medium usage');
     });
   });

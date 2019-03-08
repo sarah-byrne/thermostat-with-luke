@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel = "stylesheet"
+     type = "text/css"
+     href = "css/style.css" </link>
+  </head>
+  <body>
+    <center>
+    <h1 class="" id="temperature"></h1>
+    <h1 id="controls">
+    <button type="button" class="button1" id="decrease">-</button>
+    <button type="button" class="button1" id="increase" value="+">+</button></h1>
+    <h2><button type="button" id="powersave" value="POWERSAVE">TURN POWERSAVE OFF</button></h2>
+    <h2 id="reset"><button type="button" id="reset" value="RESET">RESET</button></h2>
+    <div id='weather'>
+    </div>
+    <form>
+    <select id="weatherSelect" name="month">
+      <option value="2643743">London</option>
+      <option value="2653229">Chessington</option>
+      <option value="2655603">Birmingham</option>
+      <option value="5128638">New York</option>
+      <option value="7292856">Sandhurst</option>
+      <option value="3333121">Barnet</option>
+    </select>
+    </form>
+    </center>
+    <script src="src/thermostat.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="jqueryStuff.js"></script>
+  </body>
+</html>

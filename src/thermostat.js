@@ -36,10 +36,10 @@ Thermostat.prototype.reset = function(){
 
 Thermostat.prototype.usage = function () {
   if (this._temp < 18) {
-    return "low usage";
-  } else if (this._temp >18 && this._temp < 25) {
-    return "medium usage";
+    return "lowusage";
+  } else if (this._temp >=18 && this._temp < 25) {
+    return "mediumusage";
   } else {
-    return "high usage";
+    return "highusage";
   }
 };
